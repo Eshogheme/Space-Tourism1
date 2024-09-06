@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Tourism Website</title>
+    <link rel="stylesheet" href="css/titan.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+
+  <body>
+    <header>
+      <svg id="svg1" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+        <g fill="none" fill-rule="evenodd">
+          <circle cx="24" cy="24" r="24" fill="#FFF" />
+          <path
+            fill="#0B0D17"
+            d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+          />
+        </g>
+      </svg>
+      <nav id="nav">
+        <svg
+          class="hamburger-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="21"
+        >
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
+          </g>
+        </svg>
+        <svg
+          class="hamburger-menu-closed"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="21"
+        >
+          <g fill="#D0D6F9" fill-rule="evenodd">
+            <path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" />
+            <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" />
+          </g>
+        </svg>
+
+        <ul id="ul">
+          <li class="li">
+            <a class="anchor" href="index.html"
+              ><span class="invisible-numbers">00</span> HOME</a
+            >
+          </li>
+          <li class="li">
+            <a class="anchor" href="index2.html"
+              ><span class="invisible-numbers">01</span>
+              <span id="destination-link">DESTINATION</span></a
+            >
+          </li>
+          <li class="li">
+            <a class="anchor" href="crew.html"
+              ><span class="invisible-numbers">02</span> CREW</a
+            >
+          </li>
+          <li class="li">
+            <a class="anchor" href="technology.html"
+              ><span class="invisible-numbers">03</span> TECHNOLOGY</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <p class="first-para">
+        <span id="first-text">01</span> PICK YOUR DESTINATION
+      </p>
+      <img
+        class="titan-image"
+        src="starter-code/assets/destination/image-titan.png"
+        alt=""
+      />
+      <div class="links-wrapper">
+        <ul id="new-ul">
+          <li class="links-list">
+            <a class="links" href="index2.html">MOON</a>
+          </li>
+          <li class="links-list">
+            <a class="links" href="mars.html">MARS</a>
+          </li>
+          <li class="links-list">
+            <a class="links" href="europa.html">EUROPA</a>
+          </li>
+          <li class="links-list">
+            <a id="titan-link" class="links" href="">TITAN</a>
+          </li>
+        </ul>
+      </div>
+
+      <h1 id="heading">TITAN</h1>
+
+      <p class="second-para">
+        The only moon known to have a dense atmosphere other than Earth, Titan
+        is a home away from home (just a few hundred degrees colder!). As a
+        bonus, you get striking views of the Rings of Saturn.
+      </p>
+
+      <hr id="horizontal-line" />
+
+      <div class="third-para-wrapper">
+        <div class="new-wrapper">
+          <p class="third-para">AVG. DISTANCE</p>
+          <div class="counter">1.6 BIL. KM</div>
+        </div>
+        <div class="next-wrapper">
+          <p class="third-para">EST. TRAVEL TIME</p>
+
+          <div class="counter">7 YEARS</div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script2.js"></script>
+  </body>
+</html>
