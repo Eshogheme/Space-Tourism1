@@ -1,3 +1,4 @@
+alert("swipe to the left :)");
 const hamburger = document.querySelector(".hamburger-menu");
 const closedHamburger = document.querySelector(".hamburger-menu-closed");
 const ul = document.querySelector("#ul");

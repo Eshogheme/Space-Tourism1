@@ -69,7 +69,6 @@
     margin: 10px;
     position: relative;
     top: 50px;
-    
   }
 
   .first-para {
@@ -106,7 +105,18 @@
     left: 5%;
     width: 100%;
   }
-  .intro-capsule{
+  .intro-launch{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-weight: lighter;
+    position: relative;
+    top: 17em;
+  }
+  .intro-capsule {
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -146,7 +156,6 @@
     margin-bottom: 1em;
   }
 
-  
   .active {
     background-color: white;
     color: midnightblue;
@@ -158,39 +167,38 @@
     font-family: "Barlow Condensed", sans-serif;
     width: 100%;
   }
- 
-.port-header{
-  margin-top: 8em;
-  position: absolute;
-  top: -2%;
-  display: none;
-}
-.port-para{
-  position: absolute;
-  top: 95%;
-  display: none;
-}
-.new-img
-{
-  display: none;
-}
 
-.capsule-img{
-  position: absolute;
- visibility: hidden;
-}
+  .port-header {
+    margin-top: 8em;
+    position: absolute;
+    top: -2%;
+    display: none;
+  }
+  .port-para {
+    position: absolute;
+    top: 95%;
+    display: none;
+  }
+  .new-img {
+    display: none;
+  }
 
-.capsule-header{
-  position: absolute;
-  top:20%;
-  display: none;
-}
+  .capsule-img {
+    position: absolute;
+    visibility: hidden;
+  }
 
-.capsule-para{
-  position: absolute;
-  top: 95%;
-  display: none;
-}
+  .capsule-header {
+    position: absolute;
+    top: 20%;
+    display: none;
+  }
+
+  .capsule-para {
+    position: absolute;
+    top: 95%;
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
@@ -201,7 +209,7 @@
     padding: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../starter-code/assets/technology/background-technology-tablet.jpg');
+    background-image: url("../starter-code/assets/technology/background-technology-tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -217,12 +225,11 @@
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(50.774227142333984px);
     height: auto;
-    min-height:5%;
+    min-height: 5%;
     width: 65%;
     z-index: 10;
     position: absolute;
     left: 35%;
-    
   }
 
   .hamburger-menu {
@@ -238,12 +245,12 @@
     display: none;
   }
 
-  .invisible-numbers{
+  .invisible-numbers {
     display: none;
   }
   #ul {
     display: flex;
-   flex-direction: row  ;
+    flex-direction: row;
     visibility: visible;
   }
 
@@ -253,161 +260,410 @@
     font-weight: lighter;
     font-size: 20px;
     padding: 1em;
-
   }
   .anchor {
     color: white;
     text-decoration: none;
     font-size: 12px;
   }
-  #crew-link{
+  #crew-link {
     padding-bottom: 35px;
     border-bottom: 2px solid white;
   }
-.anchor:hover{
-  border-bottom: 1px solid white;
-}
-#technology-link{
-  padding-bottom: 35px;
-  border-bottom: 2px solid white;
+  .anchor:hover {
+    border-bottom: 1px solid white;
+  }
+  #technology-link {
+    padding-bottom: 35px;
+    border-bottom: 2px solid white;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    color: white;
+  }
+
+  .first-para {
+    color: white;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.7px;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-right: 26em;
+  }
+
+  #first-text {
+    opacity: 0.25;
+  }
+
+  .technology-img {
+    height: 65vh;
+    width: 110%;
+    clip-path: inset(40% 0 0% 0);
+    position: absolute;
+    top: -30px;
+  }
+
+  .intro {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-weight: lighter;
+    position: absolute;
+    top: 75%;
+    left: 4%;
+    width: 100%;
+  }
+
+  .intro-launch{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-weight: lighter;
+    position: relative;
+    top: 25em;
+  }
+  .intro-capsule {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-weight: lighter;
+    position: absolute;
+    top: 75%;
+    left: 22%;
+  }
+
+  .technology-header {
+    color: white;
+    font-size: 34px;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 12em;
+    text-transform: uppercase;
+  }
+
+  .technology-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2em;
+  }
+
+  .technology-li {
+    list-style-type: none;
+    border: 1px solid grey;
+    padding: 1em;
+    margin-left: 1em;
+    border-radius: 100%;
+    margin-bottom: 1em;
+  }
+
+  .active {
+    background-color: white;
+    color: midnightblue;
+  }
+
+  .technology-para {
+    text-align: center;
+    font-weight: lighter;
+    font-family: "Barlow Condensed", sans-serif;
+    width: 63%;
+    margin-left: 3em;
+    margin-bottom: 1em;
+  }
+
+  .port-header {
+    margin-top: 8em;
+    position: absolute;
+    top: -2%;
+    display: none;
+  }
+  .port-para {
+    position: absolute;
+    top: 95%;
+    display: none;
+  }
+  .new-img {
+    display: none;
+  }
+
+  .capsule-img {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .capsule-header {
+    position: absolute;
+    top: 20%;
+    display: none;
+  }
+
+  .capsule-para {
+    position: absolute;
+    top: 95%;
+    display: none;
+  }
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-  position: relative;
-  top: 50px;
-  color: white;
-}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  html,
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../starter-code/assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
-.first-para {
-  color: white;
-  font-size: 18px;
-  font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 2.7px;
-  font-weight: lighter;
-  margin-top: 50px;
-  margin-right: 26em;
-}
+  #svg1 {
+    position: absolute;
+    left: 20px;
+    top: 60px;
+  }
 
-#first-text {
-  opacity: 0.25;
-}
+  #nav {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(50.774227142333984px);
+    height: auto;
+    min-height: 5%;
+    width: 65%;
+    z-index: 10;
+    position: absolute;
+    left: 35%;
+    margin-top: 2em;
+  }
 
-.technology-img {
-  height: 65vh;
-  width: 110%;
-  clip-path: inset(40% 0 0% 0);
-  position: absolute;
-  top: -30px;
-}
+  .hamburger-menu {
+    position: relative;
+    left: 100%;
+    top: 25px;
+    display: none;
+  }
+  .hamburger-menu-closed {
+    position: absolute;
+    left: 60%;
+    top: 20px;
+    display: none;
+  }
 
-.intro {
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 2.5px;
-  font-size: 15px;
-  font-weight: lighter;
-  position: absolute;
-  top: 75%;
-  left: 4%;
-  width: 100%;
-}
-.intro-capsule{
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 2.5px;
-  font-size: 15px;
-  font-weight: lighter;
-  position: absolute;
-  top: 75%;
-  left: 22%;
-}
+  .invisible-numbers {
+    font-weight: 900;
+    padding: 0.5em;
+  }
+  #ul {
+    display: flex;
+    flex-direction: row;
+    visibility: visible;
+  }
 
-.technology-header {
-  color: white;
-  font-size: 34px;
-  font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 2.5px;
-  font-weight: lighter;
-  text-align: center;
-  margin-top: 12em;
-  text-transform: uppercase;
-}
-
-.technology-ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 2em;
-}
-
-.technology-li {
-  list-style-type: none;
-  border: 1px solid grey;
-  padding: 1em;
-  margin-left: 1em;
-  border-radius: 100%;
-  margin-bottom: 1em;
-}
-
-
-.active {
-  background-color: white;
-  color: midnightblue;
-}
-
-.technology-para {
-  text-align: center;
-  font-weight: lighter;
-  font-family: "Barlow Condensed", sans-serif;
-  width: 63%;
-  margin-left: 3em;
-  margin-bottom: 1em;
-}
-
-.port-header{
-margin-top: 8em;
-position: absolute;
-top: -2%;
-display: none;
-}
-.port-para{
-position: absolute;
-top: 95%;
-display: none;
-}
-.new-img
-{
-display: none;
-}
-
-.capsule-img{
-position: absolute;
-visibility: hidden;
-}
-
-.capsule-header{
-position: absolute;
-top:20%;
-display: none;
-}
-
-.capsule-para{
-position: absolute;
-top: 95%;
-display: none;
-}
+  .li {
+    list-style-type: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 1em;
+  }
+  .anchor {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+  }
+  .anchor:hover {
+    
+    transition: scale(1.2);
+    font-size: 14px;
+  }
 
 
 
+  #technology-link {
+    padding-bottom: 35px;
+    border-bottom: 2px solid white;
+  }
 
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    color: white;
+  }
+
+  .first-para {
+    color: white;
+    font-size: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.7px;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-right: 24em;
+  }
+
+  #first-text {
+    opacity: 0.25;
+  }
+
+  .technology-img {
+    width: 40%;
+    position: absolute;
+    top: 10em;
+    left: 40em;
+  }
+
+  .intro {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    font-weight: lighter;
+    position: absolute;
+    top: -2em;
+    left: -8.5em;
+    width: 100%;
+  }
+
+  .intro-launch{
+    color: white;
+    text-transform: uppercase;
+   margin-top: 4em;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-weight: lighter;
+    position: relative;
+    left: -5em;
+  }
+  .intro-capsule {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    font-weight: lighter;
+    position: absolute;
+   top: -2.5em;
+    left: -20%;
+  }
+
+  .technology-header {
+    color: white;
+    font-size: 35px;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: lighter;
+    position: relative;
+    top: -5px;
+    left: -2em;
+    text-transform: uppercase;
+
+  }
+
+  .technology-ul {
+    display: flex;
+   flex-direction: column;
+    position: absolute;
+    left: 3em;
+    top: 12em;
+  }
+
+  .technology-li {
+    list-style-type: none;
+    border: 1px solid grey;
+    padding: 1.2em;
+    margin-left: 1em;
+    border-radius: 100%;
+    margin-bottom: 1em;
+    font-size: 20px;
+  }
+
+  .active {
+    background-color: white;
+    color: midnightblue;
+  }
+
+  .technology-para {
+    
+    font-weight: lighter;
+    font-family: "Barlow Condensed", sans-serif;
+    width: 35%;
+    margin-left: -7em;
+   position: relative;
+   top: -1em;
+   left: -20px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .port-header {
+    margin-top: 8em;
+    position: absolute;
+    top: 7em;
+    left: 19em;
+    display: none;
+  }
+  .port-para {
+    position: absolute;
+    top: 85%;
+    left: 22.5em;
+    width: 35%;
+    display: none;
+    line-height: 25px;
+  }
+  .new-img {
+    display: none;
+  }
+
+  .capsule-img {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .capsule-header {
+    position: absolute;
+    top: 7em;
+    left: 8.5em;
+    display: none;
+    font-size: 35px;
+  }
+
+  .capsule-para {
+    position: absolute;
+    top: 80%;
+    left: 22.5em;
+    width: 35%;
+    display: none;
+    line-height: 25px;
+  }
 }
+
