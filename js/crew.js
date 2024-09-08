@@ -1,4 +1,5 @@
-alert("swipe to the left :)");
+
+
 const hamburger = document.querySelector(".hamburger-menu");
 const closedHamburger = document.querySelector(".hamburger-menu-closed");
 const ul = document.querySelector("#ul");
@@ -14,6 +15,7 @@ const commander = document.querySelector('.commander');
 const specialist = document.querySelector('.specialist');
 const pilot = document.querySelector('.pilot');
 const engineer = document.querySelector('.engineer');
+alert("swipe to the left :)");
 let currentPage = 0;
 
 console.log(commander)
