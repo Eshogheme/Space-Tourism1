@@ -121,21 +121,27 @@
     font-size: 70px;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
+    text-align: center;
   }
 
   .second-para {
     color: white;
     font-size: 16px;
     text-align: center;
-    width: 100%;
+    width: 70%;
+    margin-left: 4em;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
   }
 
+  #horizontal-line{
+    width: 80%;
+  }
   .third-para {
     color: #d0d6f9;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 18px;
+    margin-left: 7.5em;
   }
 
   .counter {
@@ -143,6 +149,7 @@
     font-weight: 50;
     color: white;
     font-family: "Bellefair";
+    margin-left: 3em;
   }
 }
 @media (min-width: 768px) and (max-width: 1000px) {
