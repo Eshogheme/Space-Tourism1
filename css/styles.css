@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 500px) {
   html,
   body {
     overflow-x: hidden;
@@ -125,7 +125,7 @@
     font-family: "Barlow Condensed", sans-serif;
   }
 }
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   html,
   body {
     overflow-x: hidden;
@@ -252,7 +252,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1430px) {
   html,
   body {
     overflow-x: hidden;
@@ -338,14 +338,14 @@
 
   .header-para-wrapper{
     position: absolute;
-    top: 18em;
+    top: 20em;
     left: -23em;
   }
 
   .para1 {
     color: white;
     font-size: 20px;
-    margin-left: 25em;
+    margin-left: -1em;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
     letter-spacing: 2.7px;
@@ -367,6 +367,7 @@
     width: 30%;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
+    text-align: left;
   }
 
   .explore-wrapper {
@@ -393,7 +394,7 @@
   }
 }
 
-@media (min-width: 1560px) and (max-width: 2560px) {
+@media (min-width:1440px){
   html,
   body {
     overflow: hidden;
@@ -499,7 +500,7 @@
     font-weight: lighter;
     position:absolute;
     left:3.7em ;
-    top: -0.3em;
+    top: -35px;
   }
 
   .para2 {

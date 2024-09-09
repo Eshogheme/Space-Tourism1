@@ -153,7 +153,7 @@
     margin-left: 3em;
   }
 }
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
 
   html,
@@ -339,7 +339,7 @@ margin-top: 2em;
 
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1438px) {
   html,
   body {
     overflow-x: hidden;
@@ -542,10 +542,10 @@ margin-left: -0.5em;
 }
 }
 
-@media (min-width: 1560px) and (max-width: 2560px) {
+@media (min-width: 1440px) {
   html,
   body {
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0;
     padding: 10px;
     width: 100%;
