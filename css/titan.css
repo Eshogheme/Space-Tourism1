@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width:320px) and (max-width:500px){
+@media (min-width:320px) and (max-width:767px){
 html,body{
     overflow-x: hidden;
     margin: 0;
@@ -104,7 +104,8 @@ html,body{
 }
 
 #new-ul{
-    display: flex;
+  display: flex;
+  justify-content: center;
 }
 .links-list{
     padding-right: 30px;
@@ -134,8 +135,8 @@ html,body{
     color: white;
     font-size: 16px;
     text-align: center;
-    width: 70%;
-    margin-left: 4em;
+    width: 60%;
+   margin-left: 6em;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
   }
@@ -147,7 +148,7 @@ html,body{
     color: #d0d6f9;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 18px;
-    margin-left: 7.5em;
+    text-align: center;
   }
 
   .counter {
@@ -155,7 +156,7 @@ html,body{
     font-weight: 50;
     color: white;
     font-family: "Bellefair";
-    margin-left: 3em;
+    text-align: center;
   }
 }
 
@@ -271,7 +272,9 @@ html,body{
 }
 
 #new-ul{
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .links-list{
     padding-right: 30px;
@@ -290,20 +293,21 @@ html,body{
     border-bottom: 3px solid white;
   }
 #heading{
-    color: white;
-    font-size: 80px;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: lighter;
-    margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: lighter;
+text-align: center;
 }
 .second-para{
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    width: 80%;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: lighter;
-    line-height: 30px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  width: 70%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-left: 7em;
 }
 
 
@@ -328,7 +332,7 @@ html,body{
     color: #d0d6f9;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 18px;
-   
+   text-align: center;
   }
   
   .counter {
@@ -336,6 +340,7 @@ html,body{
     font-weight: 50;
     color: white;
     font-family: "Bellefair";
+    text-align: center;
   }
   
   #horizontal-line{

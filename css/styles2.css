@@ -2,7 +2,9 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+
+
+@media (min-width: 320px) and (max-width: 767px) {
   html,
   body {
     overflow-x: hidden;
@@ -101,6 +103,7 @@
 
   #new-ul {
     display: flex;
+    justify-content: center;
   }
   .links-list {
     padding-right: 30px;
@@ -128,8 +131,8 @@
     color: white;
     font-size: 16px;
     text-align: center;
-    width: 70%;
-    margin-left: 4em;
+    width: 60%;
+   margin-left: 6em;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
   }
@@ -141,7 +144,8 @@
     color: #d0d6f9;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 18px;
-    margin-left: 7.5em;
+    text-align: center;
+   
   }
 
   .counter {
@@ -149,7 +153,8 @@
     font-weight: 50;
     color: white;
     font-family: "Bellefair";
-    margin-left: 3em;
+    text-align: center;
+    
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -261,10 +266,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
+    
   }
 
   #new-ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .links-list {
     padding-right: 30px;
@@ -285,23 +293,25 @@
     font-size: 80px;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
-    margin: 0 auto;
+  text-align: center;
+
   }
 
   .second-para {
     color: white;
     font-size: 16px;
     text-align: center;
-    width: 80%;
+    width: 70%;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
     line-height: 30px;
+    margin-left: 7em;
   }
 
   .third-para-wrapper{
     display: grid;
     grid-template-columns: repeat(2,350px);
-  margin-left: 7em;
+  margin-left: 7.5em;
   }
 
   .new-wrapper,
@@ -336,7 +346,7 @@
 
 }
 
-@media (min-width: 1024px) and (max-width: 1438px) {
+@media (min-width: 1024px){
   html,
   body {
     overflow-x: hidden;
@@ -652,7 +662,7 @@
   
     .moon-image {
       width: 90%;
-     
+     margin-top: 10em;
       margin-left: -10em;
     }
   

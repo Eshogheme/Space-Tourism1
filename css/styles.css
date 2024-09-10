@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 767px) {
   html,
   body {
     overflow-x: hidden;
@@ -72,8 +72,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 70px;
+    top: 10em;
   }
+
+
 
   .para1 {
     color: white;
@@ -82,8 +84,7 @@
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
     letter-spacing: 2.7px;
-    /* position: relative;
-    left: -15px; */
+    
   }
 
   #header1 {
@@ -92,8 +93,7 @@
     font-size: 80px;
     font-family: "Bellefair";
     font-weight: lighter;
-    /* position: relative;
-    left: -15px; */
+  
   }
 
   .para2 {
@@ -104,8 +104,7 @@
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
     margin-left: 2.5em;
-    /* position: relative;
-    left: 20px; */
+   
   }
 
   .explore-wrapper {
@@ -114,8 +113,8 @@
     align-items: center;
     margin: 20px;
     padding: 20px;
+    margin-left:10em;
     position: relative;
-    left: 15%;
     top: 20px;
   }
   #explore-text {
@@ -125,7 +124,7 @@
     font-family: "Barlow Condensed", sans-serif;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   html,
   body {
     overflow-x: hidden;
@@ -203,9 +202,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 4em;
   }
 
+   .header-para-wrapper{
+   display: flex;
+   flex-direction: column;
+   margin-top: 12em;
+  }
   .para1 {
     color: white;
     font-size: 14px;
@@ -228,10 +232,11 @@
     color: white;
     font-size: 15px;
     text-align: center;
-    width: 50%;
+   margin-left:12em ;
+    width: 60%;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
-    margin-left: 13em;
+    
   }
 
   .explore-wrapper {
@@ -252,7 +257,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1430px) {
+@media (min-width: 1024px){
   html,
   body {
     overflow-x: hidden;
@@ -337,15 +342,15 @@
   }
 
   .header-para-wrapper{
-    position: absolute;
-    top: 20em;
-    left: -23em;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10em;
+   margin-left:10em ;
   }
 
   .para1 {
     color: white;
     font-size: 20px;
-    margin-left: -1em;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
     letter-spacing: 2.7px;
@@ -353,21 +358,23 @@
 
   #header1 {
     color: white;
-    text-align: center;
+    margin: 0;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
     font-size: 8em;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
-    margin: 0 auto;
+   
   }
 
   .para2 {
     color: white;
     font-size: 15px;
-    margin-left:33em;
+    line-height: 25px;
     width: 30%;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
-    text-align: left;
+    
   }
 
   .explore-wrapper {
@@ -376,9 +383,9 @@
     align-items: center;
     margin: 20px;
     padding: 20px;
+    margin-left: 60em;
     position: relative;
-    left: 40%;
-    top: 12em;
+    top: -20em;
   }
   #explore-text {
     font-size: 25px;
@@ -479,15 +486,15 @@
   }
 
   .header-para-wrapper{
-    position: absolute;
-    top: 25em;
-    left: -23em;
+   display: flex;
+   flex-direction: column;
+   margin-top: 12em;
   }
 
   .para1 {
     color: white;
     font-size: 20px;
-    margin-left: 25em;
+    
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
     letter-spacing: 2.7px;
@@ -498,20 +505,18 @@
     font-size: 8em;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
-    position:absolute;
-    left:3.7em ;
-    top: -35px;
+    
+   
   }
 
   .para2 {
     color: white;
     font-size: 16px;
-    margin-left:31em;
+   
     width: 40%;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: lighter;
-    position:absolute;
-    top: 11em;
+    
   }
 
   .explore-wrapper {
@@ -522,7 +527,7 @@
     padding: 25px;
     position: relative;
     left: 35%;
-    top: 17em;
+    top: -15em;
   }
   #explore-text {
     font-size: 25px;
